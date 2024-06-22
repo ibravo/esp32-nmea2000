@@ -32,8 +32,8 @@ const unsigned long HEAP_REPORT_TIME=2000; //set to 0 to disable heap reporting
 #endif
 
 #include <ActisenseReader.h>
-#include <Seasmart.h>
-#include <N2kMessages.h>
+#include <Seasmart.h>  //Converts N2k backbone into N2k Sentence for Engine data 
+#include <N2kMessages.h> //Decodes N2k messages
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
 #include <Preferences.h>

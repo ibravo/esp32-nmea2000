@@ -2,6 +2,15 @@
 #include "GwApi.h"
 //we only compile for some boards
 #ifdef BOARD_TEST
+
+//Add button definitions
+#define BOARD_LEFT1 GPIO_NUM_18
+#define BOARD_LEFT2 GPIO_NUM_19
+#define GROOVE_PIN_1 GPIO_NUM_11
+#define GROOVE_PIN_2 GPIO_NUM_12
+
+#define USBSerial Serial
+
 //we could add the following defines also in our local platformio.ini
 //CAN base 
 #define M5_CAN_KIT
