@@ -19,7 +19,7 @@
     {
         "name": "apPassword",
         "type": "password",
-        "default": "esp32nmea2k",
+        "default": "password",
         "check": "checkApPass",
         "description": "set the password for the Wifi access point",
         "category": "system",
