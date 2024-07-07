@@ -4,8 +4,8 @@
 #ifdef BOARD_TEST
 
 //Add button definitions
-#define BOARD_LEFT1 GPIO_NUM_18
-#define BOARD_LEFT2 GPIO_NUM_19
+#define BOARD_LEFT1 GPIO_NUM_17
+#define BOARD_LEFT2 GPIO_NUM_18
 #define GROOVE_PIN_1 GPIO_NUM_11
 #define GROOVE_PIN_2 GPIO_NUM_12
 
